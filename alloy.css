@@ -1,4 +1,4 @@
 body {
-  background-color: black;
   cursor: url(cursor.png) 4 5, auto;
+  background-image: url(field.png);
 }
