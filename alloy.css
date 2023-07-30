@@ -1,4 +1,24 @@
 body {
-  cursor: url(cursor.png) 4 5, auto;
-  background-image: url(field.png);
+  /*  cursor: url(cursor.png) 4 5, auto; */
+  background-color: black;
+}
+h1 {
+  text-align: center;
+  padding-top: 25%;
+}
+p {
+  color: white;
+  padding-top: 0%;
+  text-align: center;
+  border: 1px 1px outset;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+h2 {
+  border: solid;
+  text-align: center;
 }

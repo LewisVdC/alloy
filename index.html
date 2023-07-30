@@ -2,7 +2,27 @@
   <head>
     <link rel="stylesheet" href="alloy.css" />
   </head>
-  <body>
-    <h1></h1>
+  <body onload="start()">
+    <h1>
+      <button id="hide" onclick="hide(),show()">hi</button>
+    </h1>
+    <p id="show" style.visibility="hidden">
+      <a href="https://lewisvdc.github.io/alloy">hiiiiii</a>
+    </p>
+    <script>
+      function hide() {
+        document.getElementById("hide").hidden = "hidden";
+      }
+    </script>
+    <script>
+      function show() {
+        document.getElementById("show").style.visibility = "visible";
+      }
+    </script>
+    <script>
+      function start() {
+        document.getElementById("show").style.visibility = "hidden";
+      }
+    </script>
   </body>
 </html>
